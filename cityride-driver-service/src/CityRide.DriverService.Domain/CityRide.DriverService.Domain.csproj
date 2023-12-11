@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+
+        <PackageReference Include="CityRide.Events" Version="1.0.1" />
+        <PackageReference Include="CityRide.Domain" Version="1.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="7.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.NetTopologySuite" Version="7.0.5" />
+
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\CityRide.RideService.Domain\CityRide.RideService.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="12.0.1" />
+        <PackageReference Include="CityRide.Events" Version="1.1.1" />
+        <PackageReference Include="CityRide.Kafka" Version="1.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.8" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="RedLock.net" Version="2.3.2" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  billing-service:
+    container_name: billing-service
+    image: "cityride-billing-service:latest"
+    ports:
+      - "5005:5005"
+      - "5006:5006"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+    networks:
+      - cityride-network
+    volumes:
+      - "./data/:/var/opt/sqlite/data/"
+
+  client-service:
+    container_name: client-service
+    image: "cityride-client-service:latest"
+    ports:
+      - "5001:5001"
+      - "5002:5002"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+    networks:
+      - cityride-network
+    volumes:
+      - "./data/:/var/opt/sqlite/data/"
+
+  driver-service:
+    container_name: driver-service
+    image: "cityride-driver-service:latest"
+    ports:
+      - "5003:5003"
+      - "5004:5004"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+    networks:
+      - cityride-network
+
+  ride-service:
+    container_name: ride-service
+    image: "cityride-ride-service:latest"
+    ports:
+      - "5007:5007"
+      - "5008:5008"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+    networks:
+      - cityride-network
+    volumes:
+      - "./data/:/var/opt/sqlite/data/"
+
+networks:
+  cityride-network:
+    external: true

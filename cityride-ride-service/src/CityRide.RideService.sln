@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityRide.RideService.API", "CityRide.RideService.API\CityRide.RideService.API.csproj", "{28F5D894-A8F0-466D-86F0-F3573073BE5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityRide.RideService.Domain", "CityRide.RideService.Domain\CityRide.RideService.Domain.csproj", "{A1678182-D28C-4164-A94B-F26A3B1BC17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityRide.RideService.Infrastructure", "CityRide.RideService.Infrastructure\CityRide.RideService.Infrastructure.csproj", "{D022047C-371C-4AF7-AA43-C8F3EAD1E482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityRide.RideService.Application", "CityRide.RideService.Application\CityRide.RideService.Application.csproj", "{35AA8CF7-5005-44F3-93CF-2CC516366C36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F5D894-A8F0-466D-86F0-F3573073BE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F5D894-A8F0-466D-86F0-F3573073BE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F5D894-A8F0-466D-86F0-F3573073BE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F5D894-A8F0-466D-86F0-F3573073BE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1678182-D28C-4164-A94B-F26A3B1BC17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1678182-D28C-4164-A94B-F26A3B1BC17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1678182-D28C-4164-A94B-F26A3B1BC17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1678182-D28C-4164-A94B-F26A3B1BC17A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D022047C-371C-4AF7-AA43-C8F3EAD1E482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D022047C-371C-4AF7-AA43-C8F3EAD1E482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D022047C-371C-4AF7-AA43-C8F3EAD1E482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D022047C-371C-4AF7-AA43-C8F3EAD1E482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35AA8CF7-5005-44F3-93CF-2CC516366C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35AA8CF7-5005-44F3-93CF-2CC516366C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35AA8CF7-5005-44F3-93CF-2CC516366C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35AA8CF7-5005-44F3-93CF-2CC516366C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

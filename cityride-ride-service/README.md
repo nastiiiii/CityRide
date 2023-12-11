@@ -1,0 +1,2 @@
+# cityride-ride-service
+RideService is a microservice that handles ride-related operations. It receives ride requests from clients and communicates with the DriverService to identify the five nearest available drivers. Once the drivers are selected, RideService is responsible for notifying them about the ride request using SignalR. Also, RideService is involved in creating the ride itself and updating the ride status as it progresses.

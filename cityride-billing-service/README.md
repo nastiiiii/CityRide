@@ -1,0 +1,2 @@
+# cityride-billing-service
+BillingService is a microservice that handles the calculation of ride prices. It performs this calculation based on various parameters, including the car class chosen by the client, a coefficient factor, the cost per kilometer, and any applicable extra fees. Additionally, BillingService is responsible for calculating the distance between the source and destination points of the ride.

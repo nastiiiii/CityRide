@@ -1,0 +1,2 @@
+# cityride-driver-service
+DriverService is a microservice that incorporates JWT token-based authentication for secure access and supports CRUD operations with the driver's profile. It handles the driver's status (connected/disconnected), which can be changed once the driver is logged in and updates the driver's current location. This microservice also searches for 5 nearest drivers that have the car class chosen by the client. The search functionality utilizes the driver's active status and current location to identify the closest available drivers.

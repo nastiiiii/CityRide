@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="12.0.1" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+        <PackageReference Include="CityRide.Events" Version="1.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0-preview.5.23280.8" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.31.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.31.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\CityRide.DriverService.Domain\CityRide.DriverService.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
